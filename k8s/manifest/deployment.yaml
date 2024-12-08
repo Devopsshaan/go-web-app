@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: go-web-app
-          image: mshanawaz/gowebapp
+          image: mshanawaz/gowebapp:v1
           ports:
             - containerPort: 8080

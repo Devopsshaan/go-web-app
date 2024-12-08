@@ -1,3 +1,4 @@
+# This is a sample deployment manifest file for a simple web application.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,6 +17,6 @@ spec:
     spec:
       containers:
         - name: go-web-app
-          image: mshanawaz/gowebapp:v1
+          image: <docker-user-name>/go-web-app
           ports:
             - containerPort: 8080
